@@ -1,0 +1,18 @@
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <item>
+        <shape
+            android:shape="oval">
+            <solid android:color="#A600FF" /> <!-- Düğme rengi -->
+        </shape>
+    </item>
+    <item
+        android:left="10dp"
+        android:right="10dp"
+        android:top="10dp"
+        android:bottom="10dp">
+        <shape
+            android:shape="oval">
+            <solid android:color="@android:color/transparent" /> <!-- Arka plan rengi (şeffaf) -->
+        </shape>
+    </item>
+</layer-list>
